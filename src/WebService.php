@@ -4,11 +4,8 @@
 namespace App;
 
 
-class WebService
+interface WebService
 {
 
-    public function something($key, $value):void
-    {
-
-    }
+    public function something($key, $value):void;
 }
